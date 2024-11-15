@@ -1,0 +1,78 @@
+body {
+    background-color:rgba(210, 65, 210, 0.3); 
+    font-family: Arial, sans-serif;
+
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#eee7f5;
+    ; /* White background for form */
+    box-shadow: 0 4px 10px rgba(200, 21, 200, 0.3); /* Purple shadow around the form */
+    border-radius: 8px; /* Rounded corners for the form */
+}
+
+h2 {
+    color: #161717; /* Dark gray text for heading */
+}
+
+.form-label {
+    font-weight: bold;
+    color: #19191a; /* Slightly darker gray for labels */
+}
+
+.input, .form-control {
+    border: 1px solid #ced4da; /* Soft gray border */
+    background-color: #ffffff; /* White background for inputs */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 0 0.25rem rgba(38, 143, 255, 0.5); /* Light blue focus shadow */
+}
+
+button {
+    background-color: #561394; /* Violet background for submit button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4d108d; /* Darker violet on hover */
+}
+
+button[type="reset"] {
+    background-color: #5a09a5; /* violet background for reset button */
+}
+
+button[type="reset"]:hover {
+    background-color:#5a09a5 ;
+}
+
+.text-danger {
+    color: #5b0911; /* Red for error messages */
+}
+
+.alert-info {
+    background-color: #cce5ff; /* Light blue background for suggestions */
+    border-color: #b8daff; /* Light blue border for info messages */
+}
+
+.required {
+    color: #dc3545; /* Red asterisk for required fields */
+}
+
+button[type="submit"] {
+    background-color: #5a09a5; /* Violet background for submit button */
+}
+
+button[type="submit"]:hover {
+    background-color: #5a09a5; /* Darker violet on hover */
+}
